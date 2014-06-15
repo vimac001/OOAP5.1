@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\GraphElements">
+      <UniqueIdentifier>{a92490db-b445-409a-9c4c-efeb34956bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GraphElements\Edge">
+      <UniqueIdentifier>{e543e1b5-9330-4e0a-89a4-ac2460307365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GraphElements\Edge\Component">
+      <UniqueIdentifier>{cbab2423-f635-4a1e-9e86-72df51585a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GraphElements\Edge\ConcreteDecorator">
+      <UniqueIdentifier>{a3431ded-4053-4682-9195-ea5120a35a56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GraphElements\Edge\Decorator">
+      <UniqueIdentifier>{8f79dc57-a9ac-4800-917b-8f0abf6f4c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Helper">
+      <UniqueIdentifier>{427dd7a1-0936-4062-9eef-2c6fa554b006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Helper\PriorityQueue">
+      <UniqueIdentifier>{78e501e5-a9a0-4e68-8f5a-cbe678367be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Vehicles">
+      <UniqueIdentifier>{bb3afb85-2f51-4d13-a2b1-db7847883ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\GraphVisualizer">
+      <UniqueIdentifier>{deef92b5-85c0-4d01-b61d-e3647e6f91fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrafficSituation.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Abbreviation.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\ConcreteDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Detour.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\ConcreteDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Stoppage.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\ConcreteDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="TrafficJam.hpp">
+      <Filter>Headerdateien\GraphElements\Edge\ConcreteDecorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Edge">
+      <Filter>Headerdateien\GraphElements\Edge</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.hpp">
+      <Filter>Headerdateien\GraphElements</Filter>
+    </ClInclude>
+    <ClInclude Include="List.hpp">
+      <Filter>Headerdateien\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="DiGraph.hpp">
+      <Filter>Headerdateien\GraphElements</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.hpp">
+      <Filter>Headerdateien\Helper\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueueEntry.hpp">
+      <Filter>Headerdateien\Helper\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueueValue.hpp">
+      <Filter>Headerdateien\Helper\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueException.hpp">
+      <Filter>Headerdateien\Helper\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphVisualizer.hpp">
+      <Filter>Headerdateien\GraphVisualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCVGraphVisualizer.hpp">
+      <Filter>Headerdateien\GraphVisualizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicle.hpp">
+      <Filter>Headerdateien\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Bicycle.hpp">
+      <Filter>Headerdateien\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.hpp">
+      <Filter>Headerdateien\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Motorcycle.hpp">
+      <Filter>Headerdateien\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Vehicles">
+      <Filter>Headerdateien\Vehicles</Filter>
+    </ClInclude>
+    <ClInclude Include="Navigator.hpp">
+      <Filter>Headerdateien\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.hpp">
+      <Filter>Headerdateien\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

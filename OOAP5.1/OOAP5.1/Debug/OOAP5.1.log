@@ -1,0 +1,22 @@
+﻿Der Buildvorgang wurde am 15.06.2014 20:51:54 gestartet.
+     1>Projekt "D:\Documents\GitHub\OOAP5.1\OOAP5.1\OOAP5.1\OOAP5.1.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencv\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218): Siehe Deklaration von 'fopen'
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencvgraphvisualizer.hpp(93): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'int', möglicher Datenverlust
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencvgraphvisualizer.hpp(94): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencvgraphvisualizer.hpp(100): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'unsigned int', möglicher Datenverlust
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencvgraphvisualizer.hpp(101): warning C4244: 'Initialisierung': Konvertierung von 'double' in 'unsigned int', möglicher Datenverlust
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\opencvgraphvisualizer.hpp(107): warning C4244: 'Argument': Konvertierung von 'double' in 'int', möglicher Datenverlust
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\navigator.hpp(55): warning C4018: '<': Konflikt zwischen 'signed' und 'unsigned'
+     1>d:\documents\github\ooap5.1\ooap5.1\ooap5.1\main.cpp(81): warning C4101: 'i': Unreferenzierte lokale Variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\GitHub\OOAP5.1\OOAP5.1\Debug\OOAP5.1.exe" /INCREMENTAL /NOLOGO opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Documents\GitHub\OOAP5.1\OOAP5.1\Debug\OOAP5.1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\GitHub\OOAP5.1\OOAP5.1\Debug\OOAP5.1.lib" /MACHINE:X86 Debug\main.obj
+         OOAP5.1.vcxproj -> D:\Documents\GitHub\OOAP5.1\OOAP5.1\Debug\OOAP5.1.exe
+     1>Die Erstellung des Projekts "D:\Documents\GitHub\OOAP5.1\OOAP5.1\OOAP5.1\OOAP5.1.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.29
